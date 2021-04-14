@@ -4,6 +4,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+
+# Inherit from the proprietary version
+-include vendor/xiaomi/psyche/BoardConfigVendor.mk
+
 DEVICE_PATH := device/xiaomi/psyche
 PSYCHE_PREBUILT := device/xiaomi/psyche-prebuilt
 

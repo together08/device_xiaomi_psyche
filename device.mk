@@ -4,6 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+$(call inherit-product, vendor/xiaomi/psyche/psyche-vendor.mk)
+
 PSYCHE_PREBUILT := device/xiaomi/psyche-prebuilt
 
 # Enable updating of APEXes
