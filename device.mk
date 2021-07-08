@@ -61,7 +61,8 @@ PRODUCT_PACKAGES += \
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworkResOverlayPsyche \
-    WifiResOverlayPsyche
+    WifiResOverlayPsyche \
+    DialerOverlayPsyche
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
