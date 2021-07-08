@@ -1,0 +1,7 @@
+runtime_resource_overlay {
+    name: "SettingsOverlayPsyche",
+    theme: "SettingsOverlayPsyche",
+    certificate: "platform",
+    sdk_version: "current",
+    product_specific: true
+}
