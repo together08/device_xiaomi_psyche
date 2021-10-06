@@ -23,4 +23,17 @@
      vibrator is capable of subtle vibrations -->
     <bool name="config_vibrateOnIconAnimation">true</bool>
 
+
+    <!-- Color of the UDFPS pressed view -->
+    <color name="config_udfpsColor">#00ffffff</color>
+
+    <!-- HBM type of UDFPS overlay.
+            0 - GLOBAL HBM
+            1 - LOCAL HBM
+    -->
+    <integer name="config_udfpsHbmType">0</integer>
+
+    <!-- The radius of the enrollment progress bar, in dp -->
+    <integer name="config_udfpsEnrollProgressBar" translatable="false">112</integer>
+
 </resources>
