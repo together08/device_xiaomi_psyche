@@ -12,6 +12,7 @@ DEVICE_PATH := device/xiaomi/psyche
 PSYCHE_PREBUILT := device/xiaomi/psyche-prebuilt
 
 BUILD_BROKEN_DUP_RULES := true
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
 # A/B
 AB_OTA_UPDATER := true
