@@ -4,12 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-<<<<<<< HEAD
 DEVICE_PATH := device/xiaomi/psyche
-=======
-DEVICE_PATH := device/xiaomi/thyme
-THYME_PREBUILT := device/xiaomi/thyme-prebuilt
->>>>>>> adc57bd (thyme: Use prebuilt odm from stock)
+PSYCHE_PREBUILT := device/xiaomi/psyche-prebuilt
 
 BUILD_BROKEN_DUP_RULES := true
 
@@ -74,11 +70,14 @@ BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 
-ifeq ($(TARGET_PREBUILT_KERNEL),)
-  TARGET_KERNEL_CONFIG := psyche_defconfig
-  TARGET_KERNEL_CLANG_COMPILE := true
-  TARGET_KERNEL_SOURCE := kernel/xiaomi/psyche
-endif
+TARGET_FORCE_PREBUILT_KERNEL := true
+TARGET_PREBUILT_KERNEL := $(PSYCHE_PREBUILT)/kernel/Image
+TARGET_PREBUILT_DTB := $(PSYCHE_PREBUILT)/kernel/dtb.img
+BOARD_PREBUILT_DTBOIMAGE := $(PSYCHE_PREBUILT)/kernel/dtbo.img
+
+TARGET_KERNEL_CONFIG := vendor/psyche_user_defconfig
+TARGET_KERNEL_CLANG_COMPILE := true
+TARGET_KERNEL_SOURCE := kernel/xiaomi/psyche
 
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
@@ -90,7 +89,7 @@ BOARD_FLASH_BLOCK_SIZE := 262144
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 114135379968
 BOARD_VENDOR_BOOTIMAGE_PARTITION_SIZE := 100663296
 
-BOARD_PREBUILT_ODMIMAGE := $(THYME_PREBUILT)/odm.img
+BOARD_PREBUILT_ODMIMAGE := $(PSYCHE_PREBUILT)/odm.img
 
 BOARD_PSYCHE_DYNAMIC_PARTITIONS_PARTITION_LIST := product system system_ext
 BOARD_SUPER_PARTITION_SIZE := 9126805504
