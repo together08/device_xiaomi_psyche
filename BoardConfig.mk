@@ -4,7 +4,12 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+<<<<<<< HEAD
 DEVICE_PATH := device/xiaomi/psyche
+=======
+DEVICE_PATH := device/xiaomi/thyme
+THYME_PREBUILT := device/xiaomi/thyme-prebuilt
+>>>>>>> adc57bd (thyme: Use prebuilt odm from stock)
 
 BUILD_BROKEN_DUP_RULES := true
 
@@ -14,6 +19,7 @@ AB_OTA_UPDATER := true
 AB_OTA_PARTITIONS += \
     boot \
     dtbo \
+    odm \
     product \
     system \
     system_ext \
@@ -80,6 +86,8 @@ BOARD_DTBOIMG_PARTITION_SIZE := 33554432
 BOARD_FLASH_BLOCK_SIZE := 262144
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 114135379968
 BOARD_VENDOR_BOOTIMAGE_PARTITION_SIZE := 100663296
+
+BOARD_PREBUILT_ODMIMAGE := $(THYME_PREBUILT)/odm.img
 
 BOARD_PSYCHE_DYNAMIC_PARTITIONS_PARTITION_LIST := product system system_ext
 BOARD_SUPER_PARTITION_SIZE := 9126805504
