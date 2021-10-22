@@ -79,7 +79,8 @@ PRODUCT_PACKAGES += \
     WifiResOverlayPsyche \
     DialerOverlayPsyche \
     SettingsOverlayPsyche \
-    CarrierConfigOverlayPsyche
+    CarrierConfigOverlayPsyche \
+    TelephonyOverlayPsyche
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
