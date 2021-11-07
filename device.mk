@@ -121,7 +121,8 @@ PRODUCT_PACKAGES += \
     SettingsOverlayPsyche \
     CarrierConfigOverlayPsyche \
     TelephonyOverlayPsyche \
-    SystemUIOverlayPsyche
+    SystemUIOverlayPsyche \
+    SettingsProviderOverlayPsyche
 
 # Overlays - override vendor ones
 PRODUCT_PACKAGES += \
