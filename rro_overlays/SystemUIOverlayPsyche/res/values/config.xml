@@ -64,4 +64,7 @@
           <item>250,36</item>
           <item>255,33</item>
     </string-array>
+
+    <!-- StatusBar burn-in protection -->
+    <bool name="config_statusBarBurnInProtection">true</bool>
 </resources>
