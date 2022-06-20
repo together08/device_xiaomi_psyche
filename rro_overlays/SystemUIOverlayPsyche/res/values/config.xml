@@ -38,4 +38,7 @@
 
     <!-- Use framework FOD dimming instead of kernel dimming -->
     <bool name="config_udfpsFrameworkDimming">true</bool>
+
+    <!-- Udfps vendor code -->
+    <integer name="config_udfps_vendor_code">22</integer>
 </resources>
