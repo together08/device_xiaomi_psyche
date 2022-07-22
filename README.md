@@ -21,4 +21,4 @@ Display |  	AMOLED, 68B colors, 120Hz, Dolby Vision, HDR10+, 1100 nits (peak)
 
 ## Device picture
 
-![Xiaomi Mi 10S](https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1615342326.05373482.jpg "Xiaomi Mi 10S")
+![Xiaomi Mi 12X](https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-12x-1.jpg "Xiaomi Mi 12X")
