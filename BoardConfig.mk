@@ -94,9 +94,9 @@ TARGET_PREBUILT_KERNEL := $(PSYCHE_PREBUILT)/kernel/kernel
 TARGET_PREBUILT_DTB := $(PSYCHE_PREBUILT)/kernel/dtb.img
 BOARD_PREBUILT_DTBOIMAGE := $(PSYCHE_PREBUILT)/kernel/dtbo.img
 
-TARGET_KERNEL_CONFIG := vendor/psyche_user_defconfig
+TARGET_KERNEL_CONFIG := vendor/thyme_user_defconfig
 TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_SOURCE := kernel/xiaomi/psyche
+TARGET_KERNEL_SOURCE := kernel/xiaomi/thyme
 
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
