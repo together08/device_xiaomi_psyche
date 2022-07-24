@@ -17,7 +17,7 @@ allow hal_fingerprint_psyche vendor_hal_fingerprint_hwservice_xiaomi:hwservice_m
 
 allow hal_fingerprint_psyche hal_touchfeature_xiaomi_hwservice:hwservice_manager find;
 
-allow hal_fingerprint_thyme touchfeature_device:chr_file rw_file_perms;
+allow hal_fingerprint_psyche touchfeature_device:chr_file rw_file_perms;
 
 # Allow access to the hals
 hal_client_domain(hal_fingerprint_psyche, hal_fingerprint)
