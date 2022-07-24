@@ -1,0 +1,4 @@
+service vendor.qti.vibrator.psyche /vendor/bin/hw/vendor.qti.hardware.vibrator.psyche.service
+    class hal
+    user system
+    group system input
