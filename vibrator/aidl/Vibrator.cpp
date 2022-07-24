@@ -37,7 +37,6 @@
 #include <string.h>
 #include <sys/ioctl.h>
 #include <thread>
-#include <fcntl.h>
 
 #include "include/Vibrator.h"
 #ifdef USE_EFFECT_STREAM
