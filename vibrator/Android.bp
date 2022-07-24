@@ -3,7 +3,6 @@ Common_CFlags += ["-Werror"]
 
 cc_library_shared {
     name: "vendor.qti.hardware.vibrator.impl.psyche",
-    vendor: true,
     cflags: Common_CFlags,
     srcs: [
         "Vibrator.cpp",
@@ -21,7 +20,6 @@ cc_library_shared {
 
 cc_binary {
     name: "vendor.qti.hardware.vibrator.service.psyche",
-    vendor: true,
     relative_install_path: "hw",
     init_rc: ["vendor.qti.hardware.vibrator.service.psyche.rc"],
     vintf_fragments: [
