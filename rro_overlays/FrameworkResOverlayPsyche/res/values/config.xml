@@ -972,7 +972,6 @@
          -->
     <string name="config_mainBuiltInDisplayCutout" translatable="false">M 0,0 H -33 V 87 H 33 V 0 H 0 Z</string>
 
-
     <!-- List of biometric sensors on the device, in decreasing strength. Consumed by AuthService
          when registering authenticators with BiometricService. Format must be ID:Modality:Strength,
          where: IDs are unique per device, Modality as defined in BiometricAuthenticator.java,
