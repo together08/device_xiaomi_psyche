@@ -11,8 +11,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit device configurations
 $(call inherit-product, device/xiaomi/psyche/device.mk)
 
-# Inherit common LineageOS configurations
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit common ArrowOS configurations
+$(call inherit-product, vendor/arrow/config/common.mk)
 
 PRODUCT_CHARACTERISTICS := nosdcard
 
@@ -20,6 +20,6 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := psyche
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := 2112123AC
-PRODUCT_NAME := lineage_psyche
+PRODUCT_NAME := arrow_psyche
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
