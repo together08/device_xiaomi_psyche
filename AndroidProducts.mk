@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_psyche.mk
+    $(LOCAL_DIR)/lineage_psyche.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_psyche-eng \
-    arrow_psyche-userdebug \
-    arrow_psyche-user
+    lineage_psyche-eng \
+    lineage_psyche-userdebug \
+    lineage_psyche-user
