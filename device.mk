@@ -92,10 +92,6 @@ PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
     android.hidl.manager@1.0
 
-# Kernel
-PRODUCT_COPY_FILES += \
-    $(PSYCHE_PREBUILT)/kernel/dtb.img:dtb.img
-
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.lights-service.psyche
