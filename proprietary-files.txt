@@ -80,22 +80,6 @@ system_ext/lib64/libdpmtcm.so
 system_ext/lib64/vendor.qti.diaghal@1.0.so
 -system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk
 
-# Fingerprint HAL
-vendor/lib/hw/fingerprint.goodix_fod.so:product/vendor_overlay/30/lib/hw/fingerprint.goodix_fod.default.so
-vendor/lib64/hw/fingerprint.goodix_fod.so:product/vendor_overlay/30/lib64/hw/fingerprint.goodix_fod.default.so
-
-# Fingerprint - From lmi
-vendor/lib/libudfpshandler.so:product/vendor_overlay/30/lib/libudfpshandler.so
-vendor/lib/vendor.goodix.hardware.biometrics.fingerprint@2.1.so:product/vendor_overlay/30/lib/vendor.goodix.hardware.biometrics.fingerprint@2.1.so
-vendor/lib64/android.hardware.biometrics.fingerprint@2.1.so:product/vendor_overlay/30/lib64/android.hardware.biometrics.fingerprint@2.1.so
-vendor/lib64/android.hardware.biometrics.fingerprint@2.2.so:product/vendor_overlay/30/lib64/android.hardware.biometrics.fingerprint@2.2.so
-vendor/lib64/android.hardware.biometrics.fingerprint@2.3.so:product/vendor_overlay/30/lib64/android.hardware.biometrics.fingerprint@2.3.so
-vendor/lib64/libudfpshandler.so:product/vendor_overlay/30/lib64/libudfpshandler.so
-vendor/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so:product/vendor_overlay/30/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so
-vendor/bin/hw/android.hardware.biometrics.fingerprint@2.3-service.xiaomi:product/vendor_overlay/30/bin/hw/android.hardware.biometrics.fingerprint@2.3-service.xiaomi
-vendor/etc/init/android.hardware.biometrics.fingerprint@2.3-service.xiaomi.rc:product/vendor_overlay/30/etc/init/android.hardware.biometrics.fingerprint@2.3-service.xiaomi.rc
--vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.3-service.xiaomi.xml:product/vendor_overlay/30/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.3-service.xiaomi.xml
-
 # IMS
 system_ext/lib64/lib-imsvideocodec.so
 system_ext/lib64/lib-imsvt.so
