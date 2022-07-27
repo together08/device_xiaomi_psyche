@@ -35,4 +35,7 @@
 
     <!-- The radius of the enrollment progress bar, in dp -->
     <integer name="config_udfpsEnrollProgressBar" translatable="false">112</integer>
+
+    <!-- Udfps vendor code -->
+    <integer name="config_udfps_vendor_code">22</integer>
 </resources>
