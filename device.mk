@@ -91,6 +91,10 @@ PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
     android.hidl.manager@1.0
 
+# IFAA
+PRODUCT_PACKAGES += \
+    IFAAService
+
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.lights-service.psyche
