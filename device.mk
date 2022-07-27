@@ -86,6 +86,10 @@ PRODUCT_PACKAGES += \
     f2fs_io \
     check_f2fs
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint@2.3-service.psyche
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
