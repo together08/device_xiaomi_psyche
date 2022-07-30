@@ -1,3 +1,6 @@
+on post-fs
+    mount none /product/etc/emptyfile /vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service.xml bind
+
 service vendor.light-qti /vendor/bin/hw/android.hardware.lights-service.qti
     class hal
     user system
