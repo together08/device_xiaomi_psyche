@@ -134,3 +134,8 @@ system_ext/lib64/libqdMetaData.so
 # Vibrator
 system/lib/libvibratorservice.so|994b508f8eb893d25314932eab83e9235bafca5e
 system/lib64/libvibratorservice.so|97b96add9c77a1dcba13dcad23031906197b7c82
+
+# Xiaomi interface hals - from thyme
+system_ext/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so
+system_ext/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so
+system_ext/lib64/vendor.xiaomi.hardware.touchfeature@1.0.so
