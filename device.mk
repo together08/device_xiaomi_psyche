@@ -75,9 +75,9 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.sh \
     init.psyche.rc
 
-# Empty manifest - used for overriding stock things
+# Empty file - used for overriding stock things
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/empty_manifest.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/empty_manifest.xml
+    $(LOCAL_PATH)/configs/emptyfile:$(TARGET_COPY_OUT_PRODUCT)/etc/emptyfile
 
 # fastbootd
 PRODUCT_PACKAGES += \
