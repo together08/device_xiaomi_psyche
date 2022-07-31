@@ -75,10 +75,6 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.sh \
     init.psyche.rc
 
-# Empty file - used for overriding stock things
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/emptyfile:$(TARGET_COPY_OUT_PRODUCT)/etc/emptyfile
-
 # fastbootd
 PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.0-impl-mock \
