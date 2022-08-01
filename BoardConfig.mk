@@ -8,6 +8,9 @@
 # Inherit from the proprietary version
 -include vendor/xiaomi/psyche/BoardConfigVendor.mk
 
+# Firmware
+-include vendor/xiaomi/psyche-firmware/BoardConfigVendor.mk
+
 DEVICE_PATH := device/xiaomi/psyche
 PSYCHE_PREBUILT := device/xiaomi/psyche-prebuilt
 
