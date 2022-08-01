@@ -3,4 +3,10 @@
     "repository": "android_device_xiaomi_psyche-prebuilt",
     "target_path": "device/xiaomi/psyche-prebuilt"
   }
+  {
+    "repository": "FlowerSea0208/vendor_xiaomi_psyche-firmware",
+    "target_path": "vendor/xiaomi/psyche-firmware",
+    "branch": "twelve",
+    "remote": "gitlab"
+  }
 ]
