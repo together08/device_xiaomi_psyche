@@ -13,6 +13,7 @@ $(call inherit-product, device/xiaomi/psyche/device.mk)
 
 # Inherit common ArrowOS configurations
 $(call inherit-product, vendor/arrow/config/common.mk)
+TARGET_SUPPORTS_QUICK_TAP := true
 
 PRODUCT_CHARACTERISTICS := nosdcard
 
@@ -21,5 +22,7 @@ PRODUCT_DEVICE := psyche
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := 2112123AC
 PRODUCT_NAME := arrow_psyche
+
+TARGET_BOOT_ANIMATION_RES := 1440
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
