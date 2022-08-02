@@ -78,6 +78,7 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_psyche
 # Kernel
 BOARD_BOOT_HEADER_VERSION := 3
 BOARD_KERNEL_BASE := 0x00000000
+BOARD_KERNEL_BINARIES := kernel
 BOARD_KERNEL_CMDLINE := console=ttyMSM0,115200n8 androidboot.hardware=qcom
 BOARD_KERNEL_CMDLINE += androidboot.console=ttyMSM0 androidboot.memcg=1
 BOARD_KERNEL_CMDLINE += msm_rtb.filter=0x237 service_locator.enable=1
@@ -87,7 +88,7 @@ BOARD_KERNEL_CMDLINE += pcie_ports=compat loop.max_part=7
 BOARD_KERNEL_CMDLINE += iptable_raw.raw_before_defrag=1
 BOARD_KERNEL_CMDLINE += ip6table_raw.raw_before_defrag=1
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
-BOARD_KERNEL_IMAGE_NAME := Image
+BOARD_KERNEL_IMAGE_NAME := kernel
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_SEPARATED_DTBO := true
 BOARD_MKBOOTIMG_ARGS := --header_version $(BOARD_BOOT_HEADER_VERSION)
@@ -100,6 +101,7 @@ TARGET_KERNEL_HEADER_ARCH := arm64
 
 TARGET_KERNEL_CONFIG := vendor/psyche_defconfig
 TARGET_KERNEL_CLANG_COMPILE := true
+TARGET_KERNEL_CLANG_VERSION := r383902
 TARGET_KERNEL_SOURCE := kernel/xiaomi/psyche
 
 # Metadata
