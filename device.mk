@@ -102,6 +102,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     IFAAService
 
+# Kernel
+PRODUCT_COPY_FILES += \
+    $(PSYCHE_PREBUILT)/kernel/dtb.img:dtb.img
+
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.lights-service.psyche
