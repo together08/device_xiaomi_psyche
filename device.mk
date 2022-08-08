@@ -117,15 +117,15 @@ PRODUCT_PACKAGES += \
     SecureElement \
     com.android.nfc_extras
 
-# Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay
-
 # Parts
 PRODUCT_PACKAGES += \
     XiaomiParts
 
-# RRO Overlays
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay \
+    $(LOCAL_PATH)/overlay-pe
+
 PRODUCT_PACKAGES += \
     FrameworkResOverlayPsyche \
     WifiResOverlayPsyche \
@@ -134,10 +134,7 @@ PRODUCT_PACKAGES += \
     CarrierConfigOverlayPsyche \
     TelephonyOverlayPsyche \
     SystemUIOverlayPsyche \
-    SettingsProviderOverlayPsyche
-
-# Overlays - override vendor ones
-PRODUCT_PACKAGES += \
+    SettingsProviderOverlayPsyche\
     FrameworksResCommon \
     FrameworksResTarget \
     DevicesOverlay \
